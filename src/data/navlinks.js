@@ -13,7 +13,7 @@ export const navlinks = [
   },
   {
     label: "Transaction History",
-    slug: "transactionHistory",
+    slug: "/",
     icon: ChartAreaIcon,
   },
   { label: "Search History", slug: "searchHistory", icon: History },
