@@ -9,7 +9,7 @@ const Header = ({ isDesktop, toggleSidebar }) => {
       {!isDesktop && (
         <button
           onClick={toggleSidebar}
-          className="bg-white h-12 w-12 flex justify-center items-center rounded"
+          className="bg-white h-10 w-10 flex justify-center items-center rounded"
         >
           <Menu className="my-icon" />
         </button>
