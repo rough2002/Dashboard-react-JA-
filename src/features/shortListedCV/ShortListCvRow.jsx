@@ -24,7 +24,7 @@ export const ShortListCvRow = ({ data }) => (
       </div>
       <SkillDots count={data.skillRating} />
     </div>
-    <button className="bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-xl text-nowrap flex items-center justify-center p-2 space-x-2 h-12 w-[30%] flex-shrink-0">
+    <button className="bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-xl text-nowrap flex items-center justify-center p-2 px-5 space-x-2 h-12 w-[30%] flex-shrink-0">
       <Download className="w-4 h-4" />
       <span className="text-sm">Download for 30 credits</span>
     </button>
