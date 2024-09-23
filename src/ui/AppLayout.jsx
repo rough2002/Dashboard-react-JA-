@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import CollapsibleSidebar from "./CollapsibleSidebar";
-import Sidebar from "./Sidebar";
+import Sidebar from "./SideBar";
 import Header from "./Header";
 
 const AppLayout = () => {
